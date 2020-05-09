@@ -132,7 +132,7 @@ installations requiring long-term consistency.
 | [lowercase-name][]             | Disallow capitalized test names                                   |                  | ![fixable-green][]  |
 | [no-alias-methods][]           | Disallow alias methods                                            | ![style][]       | ![fixable-green][]  |
 | [no-commented-out-tests][]     | Disallow commented out tests                                      | ![recommended][] |                     |
-| [no-deprecated-functions][]    | Disallow use of deprecated functions                              |                  | ![fixable-green][]  |
+| [no-deprecated-functions][]    | Disallow use of deprecated functions                              | ![recommended][] | ![fixable-green][]  |
 | [no-disabled-tests][]          | Disallow disabled tests                                           | ![recommended][] |                     |
 | [no-duplicate-hooks][]         | Disallow duplicate hooks within a `describe` block                |                  |                     |
 | [no-expect-resolves][]         | Disallow using `expect().resolves`                                |                  |                     |
