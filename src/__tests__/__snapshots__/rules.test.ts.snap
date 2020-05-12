@@ -10,6 +10,7 @@ Object {
       "jest",
     ],
     "rules": Object {
+      "jest/ban-matchers": "error",
       "jest/consistent-test-it": "error",
       "jest/expect-expect": "error",
       "jest/lowercase-name": "error",

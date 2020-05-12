@@ -127,6 +127,7 @@ installations requiring long-term consistency.
 
 | Rule                           | Description                                                       | Configurations   | Fixable             |
 | ------------------------------ | ----------------------------------------------------------------- | ---------------- | ------------------- |
+| [ban-matchers][]               | Bans specific matchers & modifiers from being used                |                  |                     |
 | [consistent-test-it][]         | Enforce consistent test or it keyword                             |                  | ![fixable-green][]  |
 | [expect-expect][]              | Enforce assertion to be made in a test body                       | ![recommended][] |                     |
 | [lowercase-name][]             | Disallow capitalized test names                                   |                  | ![fixable-green][]  |
@@ -183,6 +184,7 @@ ensure consistency and readability in jest test suites.
 
 https://github.com/dangreenisrael/eslint-plugin-jest-formatting
 
+[ban-matchers]: docs/rules/ban-matchers.md
 [consistent-test-it]: docs/rules/consistent-test-it.md
 [expect-expect]: docs/rules/expect-expect.md
 [lowercase-name]: docs/rules/lowercase-name.md
